@@ -1,0 +1,52 @@
+
+/* Body Selectors */
+body {
+    background-color: cornsilk;
+}
+
+/* Header Selectors */
+.header {
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: coral;
+    color: cornsilk;
+    width: 100%;
+    display:inline-block;
+}
+
+.header nav {
+    padding-top: 2%;
+    margin-left: 70%;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+
+.header nav ul {
+    list-style: none;
+    padding-top: 2%;
+    text-decoration: none;
+    color: cornsilk;
+    font-size: larger;
+}
+
+ul#nav-bar li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Profile Image */
+.profile-img {
+    height: 490px;
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding: 2%;
+}
+
+/* Current Project Image */
+.current-project {
+    height: 600px;
+    width: 800px;
+}
