@@ -1,4 +1,7 @@
-
+/* Universal Selectors */
+* {
+    box-sizing: border-box;
+}
 /* Body Selectors */
 body {
     background-color: cornsilk;
@@ -6,47 +9,157 @@ body {
 
 /* Header Selectors */
 .header {
-    padding-left: 1%;
-    padding-right: 1%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     background-color: coral;
     color: cornsilk;
     width: 100%;
-    display:inline-block;
+}
+
+.header h1 {
+    margin: 2%;
+    display: inline-block;
 }
 
 .header nav {
-    padding-top: 2%;
-    margin-left: 70%;
-    float: right;
+    padding-top: 5px;
+    margin-right: 3%;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    float: right;
+}
+
+.header nav ul li {
+    list-style-type: none;
+    margin: 10px;
     display: inline-block;
 }
 
-.header nav ul {
-    list-style: none;
-    padding-top: 2%;
+
+.header nav ul li a {
     text-decoration: none;
     color: cornsilk;
-    font-size: larger;
-}
-
-ul#nav-bar li {
-    text-decoration: none;
-    display: inline-block;
+    text-align: center;
 }
 
 /* Profile Image */
+.profile {
+    display: flex;
+    height: auto;
+}
+
 .profile-img {
-    height: 490px;
-    width: 400px;
+    justify-content: center;
     display: block;
     margin: auto;
-    padding: 2%;
+    width: 400px;
+    height: 490px;
+    padding-top: 20px;
+}
+
+/* About Selectors */
+.about {
+    background-color: coral;
+    padding: 10px;
+    margin: 20px;
+}
+
+.about h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: teal;
+    background-color: cornsilk;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.about div {
+    color: cornsilk;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Projects Selectors */
+.projects {
+    position: relative;
+
+}
+
+.projects h2 {
+    color: teal;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.projects h3 {
+    text-align: center;
+    color: coral;
+    font-size: 20px;
 }
 
 /* Current Project Image */
-.current-project {
-    height: 600px;
-    width: 800px;
+.projects .project-img-main {
+    display: flex;
+    height: auto;
 }
+
+.project-img-main img {
+    justify-content: center;
+    display: block;
+    margin: auto;
+    width: 900px;
+    height: 500px;
+    padding-top: 20px;
+    position: relative;
+}
+
+/* Project-Main Button */
+.btn1 {
+    position: absolute;
+    background-color: cornsilk;
+    font-size: 24px;
+    top: 57%;
+    left: 45%;
+    color: coral;
+    border-radius: 12px;
+    padding: 32px 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Contact Section */
+.contact {
+    background-color: coral;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contact h2 {
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.links {
+    color: cornsilk;
+}
+
+.links p {
+    font-size: 20px;
+}
+
+.links ul {
+    font-size: 20px;
+    margin: 2%;
+}
+
+.links li a {
+    color: teal;
+}
+
+
+/* Media Query's */
