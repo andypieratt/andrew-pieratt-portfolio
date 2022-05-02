@@ -9,14 +9,14 @@
 
 <!--Main Header and Navigation-->
 <body>
-    <header class="header">
+    <header id="home-nav" class="header">
         <h1>Andrew Pieratt</h1>
         <nav>
             <ul id="nav-bar">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#home-nav">Home</a></li>
+                <li><a href="#projects-nav">Projects</a></li>
+                <li><a href="#contact-nav">Contact</a></li>
+                <li><a href="#about-me">About</a></li>
             </ul>
         </nav>
     </header>
@@ -28,7 +28,7 @@
             <div class="profile">
                 <img class="profile-img" src="./assets/images/profile-img-placeholder.jpg" alt="Profile image of Andrew Pieratt"/>
             </div>
-            <article class="about">
+            <article id="about-me" class="about">
                 <h3>About Me:</h3>
                 <div>
                     <p>Hi, my name is Andrew (Andy) Pieratt. In May of 2021 graduated from the University of Colorado - Denver with a Bachelor's Degree in Music Business.
@@ -44,25 +44,27 @@
         </section>
 
         <!--Projects Section-->
-        <section>
+        <section id="projects-nav">
             <article class="projects">
                 <h2>Projects</h2>
                 <h3>Project 1: HTML and CSS</h3>
                 <div class="project-img-main">
                     <img src="./assets/images/Code-Refactory-IMG1.png" alt="Image link to project one"/>
-                    <button class="btn1"><a href="https://andypieratt.github.io/code-refactory-challenge/"></a>PROJECT 1</button>
+                    <a href="https://andypieratt.github.io/code-refactory-challenge/" target="_blank" rel="noopener noreferrer">
+                        <button class="btn1">PROJECT 1</button>
+                    </a>
                 </div>
             </article>
         </section>
 
         <!--Contact Section-->
-        <section>
+        <section id="contact-nav">
             <article class="contact">
                 <h2>Contact</h2>
                 <div class="links">
                     <p>Please contact or connect with me through the links below:</p>
                     <ul>
-                        <li>Email : <a href="#">pieratt.aw@gmail.com</a></li>
+                        <li>Email : <a>pieratt.aw@gmail.com</a></li>
                         <li>GitHub : <a href="https://github.com/andypieratt?tab=repositories">andypieratt-repositories</a></li>
                         <li>LinkedIn : <a href="https://www.linkedin.com/in/andrew-pieratt/">Andrew Pieratt LinkedIn Profile</a></li>
                     </ul>
