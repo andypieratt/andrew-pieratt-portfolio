@@ -177,30 +177,20 @@ button:hover {
 }
 
 
-/* Media Query's */
-
-
-@media screen and (max-width: 992px) {
-    .header {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .header h1 {
-        flex-direction: column;
-        text-align: center;
-    }
-}
+/* Media Queries */
 
 @media screen and (max-width: 768px) {
-    .header {
-        display: flex;
-        flex-wrap: wrap;
+    .header nav{
+        width: 70%;
+        margin-top: 35px;
+        margin-right: 60px;
+        padding: 0;
     }
-}
-
-@media screen and (max-width: 576px) {
-    .header{
-        display: flex;
-        flex-wrap: wrap;
+    .header nav ul {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .project-img-main img {
+        max-width: 90vw;
     }
 }
