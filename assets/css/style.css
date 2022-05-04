@@ -183,14 +183,23 @@ button:hover {
 /* Media Queries */
 
 @media screen and (max-width: 768px) {
+    .header h1 {
+        margin-top: 7%;
+        margin-left: 20%;
+    }
+
     .header nav{
         display: block;
         justify-content: space-between;
-        margin-left: 20%;
+        margin-left: 5%;
+        margin-bottom: 4%;
     }
     .header nav ul {
         font-size: 20px;
         font-weight: bolder;
+        width: 60%;
+        align-items: center;
+        margin-top: 8%;
     }
     .project-img-main img {
         max-width: 90vw;
