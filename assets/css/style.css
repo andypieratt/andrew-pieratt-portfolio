@@ -149,10 +149,36 @@ button:hover {
     background-color: rgb(218, 213, 192);
 }
 
+/* Future Project Section */
+.future-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.future-projects h3 {
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: coral;
+    font-size: 20px;
+}
+
+.placeholder1 img .placeholder2 img {
+    justify-items: center;
+    border-radius: 10px;
+    margin-right: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
 /* Contact Section */
 .contact {
     background-color: coral;
-    padding: 20px;
+    padding-bottom: 20px;
     margin-top: 20px;
 }
 
@@ -203,5 +229,9 @@ button:hover {
     }
     .project-img-main img {
         max-width: 90vw;
+    }
+    .placeholder1 img .placeholder2 img {
+        width: 20%;
+        height: 20%;
     }
 }
